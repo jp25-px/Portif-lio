@@ -1,0 +1,99 @@
+:root {
+    --body-bg-color: rgb(230, 195, 142);
+    --text-color: #333;
+    --project-bg-color: rgb(32, 78, 138);
+    --project-text-color: rgb(12, 3, 3);
+    --primary-color: #007bff;
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    background-color: var(--body-bg-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.projetos {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: var(--project-bg-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projetos h2 {
+    font-size: 36px;
+    text-align: center;
+    color: var(--project-text-color);
+}
+
+.projetos ul {
+   margin: auto;
+   padding: 0;
+}
+
+.projetos li {
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.projetos li:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.projetos a {
+    text-decoration: none;
+    color: rgb(8, 178, 235);
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.projetos a:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rm;
+}
+
+li {
+    padding: 10px ;
+    border-bottom: 2px solid #020202;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.548);
+}
+
+li:hover {
+    background-color: #ffffff;
+    
+}
+
+nav {
+    border-color: aliceblue;
+    background-color: #d19898;
+}
+
+a{
+    color: #333;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
